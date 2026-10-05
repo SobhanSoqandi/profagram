@@ -2,6 +2,8 @@ import Hero from "@/app/(components)/Hero";
 import Skills from "@/app/(components)/Skills";
 import Header from "@/app/(components)/Header";
 import OnlinePortfolio from "@/app/(components)/OnlinePortfolio";
+import About from "@/app/(components)/About";
+import Contact from "@/app/(components)/Contact";
 
 export default function Home() {
   return (
@@ -16,11 +18,11 @@ export default function Home() {
       </section>
 
       <section id="about" className="min-h-screen scroll-mt-28">
-        {/* About */}
+        <About />
       </section>
 
       <section id="contact" className="min-h-screen scroll-mt-28">
-        {/* Contact */}
+        <Contact />
       </section>
     </main>
   );

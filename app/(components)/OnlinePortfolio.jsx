@@ -34,7 +34,7 @@ export default function OnlinePortfolio() {
     <section
       id="portfolio"
       dir="rtl"
-      className="bg-white px-5 py-24 transition-colors duration-500 dark:bg-[#020617] sm:px-8 lg:px-10"
+      className="bg-white px-5 py-10 transition-colors duration-500 dark:bg-[#020617] sm:px-8 lg:px-5"
     >
       <div className="mx-auto max-w-7xl">
         <header className="mb-12 max-w-2xl">
