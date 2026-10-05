@@ -43,10 +43,10 @@ export default function Skills() {
   };
 
   return (
-    <section dir="rtl" id="skills" className="relative overflow-hidden px-3 py-28">
+    <section dir="rtl" id="skills" className="relative overflow-hidden px-3 ">
       <div className="relative mx-auto max-w-6xl">
         <div className="mb-10 flex items-center justify-between">
-          <h2 className="text-4xl font-black text-slate-900 sm:text-6xl dark:text-white">مهارت‌ها</h2>
+          <h2 className="text-2xl font-black text-slate-900 sm:text-3xl dark:text-white">مهارت‌ها</h2>
           <div className="flex gap-3">
             <Arrow onClick={() => go(1)} label="قبلی" flip />
             <Arrow onClick={() => go(-1)} label="بعدی" />
